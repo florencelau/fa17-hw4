@@ -1,0 +1,24 @@
+<h1> Cats: </h1>
+<% @cats.each do |c| %>
+  </br>
+  <tr>
+    <td><%= c.name %></td>
+  </tr>
+<% end %>
+</br> 
+<h1> Todos: </h1>
+<% @todos.each do |t| %>
+  </br>
+  <tr>
+    <td><%= t.tasks %></td>
+  </tr>
+<% end %>
+</br> 
+<h1> Users: </h1>
+<% @users.each do |u| %>
+  </br>
+  <tr>
+    <td><%= u.name %></td>
+  </tr>
+<% end %>
+</br> 
